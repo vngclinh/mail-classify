@@ -108,5 +108,3 @@ test_preds = predict_vectorized(X_test_vec, vocab, spam_probs, ham_probs, defaul
 print("Training Accuracy:", round(accuracy_score(y_train, train_preds) * 100, 2), "%")
 print("Test Accuracy:", round(accuracy_score(y_test, test_preds) * 100, 2), "%")
 
-# 0913507508
-# phuongtu@gmail.com
